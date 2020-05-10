@@ -22,12 +22,12 @@ namespace TestSelectAllTextBoxOnFocus
         public MainWindow()
         {
             InitializeComponent();
-            EventManager.RegisterClassHandler(typeof(TextBox), TextBox.PreviewMouseLeftButtonDownEvent,
-             new MouseButtonEventHandler(SelectivelyIgnoreMouseButton));
-            EventManager.RegisterClassHandler(typeof(TextBox), TextBox.GotKeyboardFocusEvent,
-                new RoutedEventHandler(SelectAllText));
-            EventManager.RegisterClassHandler(typeof(TextBox), TextBox.MouseDoubleClickEvent,
-                new RoutedEventHandler(SelectAllText));
+            //EventManager.RegisterClassHandler(typeof(TextBox), TextBox.PreviewMouseLeftButtonDownEvent,
+            // new MouseButtonEventHandler(SelectivelyIgnoreMouseButton));
+            //EventManager.RegisterClassHandler(typeof(TextBox), TextBox.GotKeyboardFocusEvent,
+            //    new RoutedEventHandler(SelectAllText));
+            //EventManager.RegisterClassHandler(typeof(TextBox), TextBox.MouseDoubleClickEvent,
+            //    new RoutedEventHandler(SelectAllText));
            
 
             //base.OnStartup(e);
